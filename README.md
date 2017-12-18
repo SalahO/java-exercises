@@ -10,6 +10,9 @@ If you get blocked, you can open an issue.
 I can review your code if you want. For it, simply make a pull-request on this project.
 If you are not familiar with git, you can learn the basis of it [here](https://try.github.io/levels/1/challenges/1)
 
+In order to run your code, you can either use or IDE or type gradle by typing this line in your terminal :
+`./gradlew run`. 
+
 ## First exercise
 
 You will build a parking of vehicles. The properties of your parking will be :
@@ -67,5 +70,11 @@ Hint : you will need to be familiar with the notions of : variables - conditions
   - All objects across the app are still immutable (except the builders).
 
   ## Seventh exercise
+
+  - Replace your huge Main with unit tests
+
+  Hint : you will need JUnit
+
+  ## Eight exercise
 
   - Connect your app to the database of your choice
