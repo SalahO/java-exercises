@@ -1,0 +1,16 @@
+// Colors
+$bordersColor: #EFEFEF;
+$primary: #8F8FFF;
+
+// Sizes
+$menuWidth: 300px;
+
+@import './_menu';
+@import './_sidebar';
+@import './_content';
+@import './_typography';
+@import './_code';
+
+body {
+  font-family: 'Open Sans';
+}
