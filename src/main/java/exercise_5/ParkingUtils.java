@@ -1,4 +1,4 @@
-package exercise_4.domain;
+package exercise_5;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -7,6 +7,11 @@ import java.util.Optional;
 import java.util.Set;
 import java.util.function.Function;
 import java.util.stream.Stream;
+
+import exercise_4.domain.Floor;
+import exercise_4.domain.Parking;
+import exercise_4.domain.Truck;
+import exercise_4.domain.Vehicle;
 
 public class ParkingUtils {
 

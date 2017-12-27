@@ -56,16 +56,18 @@ Hint : you will need to be familiar with the notions of : variables - conditions
 
 ## Fifth exercise
 
- - Complete all the function from the file [ParkingUtils]()
+ - Follow this tutorial : http://www.baeldung.com/java-optional
+ - Complete all the function from the file [ParkingUtils](https://github.com/AntoineCheron/java-exercises/blob/master/src/main/java/exercise_5/ParkingUtils.java)
+ - In the mean time, implement the same method in a fully imperative way [ImperativeParkingUtils](https://github.com/AntoineCheron/java-exercises/blob/master/src/main/java/exercise_5/ImperativeParkingUtils.java)
 
  Hint : search for tutorials about Java 8 streams
 
 ## Sixth exercise
 
- - - A parking slot can now be a ParkingSlot of any subclass of Vehicle. So a parking slot can welcome a Car OR a Motorcycle OR a Truck.
-  - A Garage can make a few transformations on a car : changing its color, fixing it
+ - A parking slot can now be a ParkingSlot of any subclass of Vehicle. So a parking slot can welcome a Car OR a Motorcycle OR a Truck.
+ - A Garage can make a few transformations on a car : changing its color, fixing it
    (which means that the car can now be broken ;) ) and any other transformation you think about.
-  - All objects across the app are still immutable (except the builders).
+ - All objects across the app are still immutable (except the builders).
 
 ## Seventh exercise
 
