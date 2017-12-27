@@ -49,7 +49,8 @@ Hint : you will need to be familiar with the notions of : variables - conditions
   - The parking must be able to give the amount of slots that are available/occupied
    per floor, per aisle and in the whole parking.
   - The constructor of Parking must be private.
-  - The constructor of the vehicles can be public anymore. But Vehicle must stay abstract.
+  - The constructor of the vehicles can be public anymore. Car, Truck and Motorcycle do not require a Builder.
+  - Vehicle must stay abstract.
 
    Hint : take a look at the Optional class in Java. You will also need to be
     familiar with the notion of generic classes.
