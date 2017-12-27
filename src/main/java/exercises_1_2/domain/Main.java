@@ -1,4 +1,4 @@
-package domain;
+package exercises_1_2.domain;
 
 class Main {
 
