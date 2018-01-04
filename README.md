@@ -79,3 +79,14 @@ Hint : you will need to be familiar with the notions of : variables - conditions
 ## Eight exercise
 
   - Connect your app to the database of your choice and make your app persistent
+  
+## Server exercise
+
+  - Clone the project and go the the `server_exercise` package.
+  - Then open functional.Main and imperative.Main and do what's indicated in the comments.
+
+You can read some articles about functional programming here : 
+
+- https://fr.wikipedia.org/wiki/Programmation_fonctionnelle
+- https://flyingbytes.github.io/programming/java8/functional/part1/2017/01/23/Java8-Part1.html
+- http://projectreactor.io/docs/core/release/reference/#intro-reactive (only part 3)

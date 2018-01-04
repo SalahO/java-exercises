@@ -13,7 +13,7 @@ import exercise_4.domain.Parking;
 import exercise_4.domain.Truck;
 import exercise_4.domain.Vehicle;
 
-public class ParkingUtils {
+public class ParkingUtilsWithoutHints {
 
   public static <T> List<T> streamToList(Stream<T> stream) {
     // TODO
