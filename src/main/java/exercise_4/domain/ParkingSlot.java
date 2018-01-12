@@ -6,7 +6,7 @@ public class ParkingSlot {
 
   private final Optional<Vehicle> vehicle;
 
-  private ParkingSlot(Optional<Vehicle> vehicle) {
+  public ParkingSlot(Optional<Vehicle> vehicle) {
     this.vehicle = vehicle;
   }
 

@@ -21,6 +21,7 @@ public class Aisle {
   public boolean park(int slotNb, Vehicle v) {
     assert(slotNb <= this.nbOfSlots);
     ParkingSlot parkedVehicle = this.parkingSlots.put(slotNb, ParkingSlot.of(v));
+    if (parkedVehicle == null) return true;
     return parkedVehicle.getVehicle().map(vehicle -> vehicle.equals(v)).orElse(false);
   }
 

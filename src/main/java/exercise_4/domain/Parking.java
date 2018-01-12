@@ -1,6 +1,7 @@
 package exercise_4.domain;
 
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.List;
 
 public class Parking {
@@ -52,7 +53,7 @@ public class Parking {
     return this.getParkedVehicles().stream().map(Vehicle::getWeight).reduce((w1, w2) -> w1 + w2).orElse(0);
   }
 
-  private static class Builder {
+  public static class Builder {
 
     private final List<Floor> floors;
 
@@ -66,7 +67,7 @@ public class Parking {
     }
 
     public Parking build() {
-      return new Parking(this.floors);
+      return new Parking(Collections.unmodifiableList(this.floors));
     }
   }
 }

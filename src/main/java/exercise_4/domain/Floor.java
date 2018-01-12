@@ -1,5 +1,6 @@
 package exercise_4.domain;
 
+import java.util.Collections;
 import java.util.HashMap;
 import java.util.Map;
 import java.util.Optional;
@@ -30,7 +31,7 @@ public class Floor {
     return new Builder();
   }
 
-  private static class Builder {
+  public static class Builder {
     private final Map<Character, Aisle> aisles;
 
     private Builder(){
@@ -44,7 +45,7 @@ public class Floor {
     }
 
     public Floor build() {
-      return new Floor(this.aisles.size(), this.aisles);
+      return new Floor(this.aisles.size(), Collections.unmodifiableMap(this.aisles));
     }
 
   }
